@@ -1,6 +1,6 @@
-# wifiscan.sh
+# wifiscan
 
-wifiscan.sh is a shell script and awk based Linux `iw <devname> scan` parsing tool.
+wifiscan is a shell script and awk based Linux `iw <devname> scan` parsing tool.
 It converts the scanning results to a JSON array, so that the converted results can be easily queried and manipulated by tools like [jq](https://stedolan.github.io/jq/).
 
 * Unicode SSID names are of course supported.
